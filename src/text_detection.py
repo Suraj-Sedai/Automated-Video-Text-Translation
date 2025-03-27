@@ -42,8 +42,8 @@ results = reader.readtext(image)
 print("EasyOCR Results:", results)
 
 
-from googletrans import Translator
+# from googletrans import Translator
 
-translator = Translator()
-translated_text = translator.translate("Welcome", dest="es").text
-print("Translated Text:", translated_text)
+# translator = Translator()
+# translated_text = translator.translate("Welcome", dest="es").text
+# print("Translated Text:", translated_text)
