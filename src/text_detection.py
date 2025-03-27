@@ -39,4 +39,11 @@ print("Detected Text:", text)
 # EasyOCR
 reader = easyocr.Reader(['en'])
 results = reader.readtext(image)
-print("EasyOCR Results:", results)
+# print("EasyOCR Results:", results)
+
+
+# from googletrans import Translator
+
+# translator = Translator()
+# translated_text = translator.translate("Welcome", dest="es").text
+# print("Translated Text:", translated_text)
