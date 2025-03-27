@@ -25,7 +25,7 @@ else:
     print(f"Extracted {count} frames successfully.")
 
 # OCR Processing on First Frame
-image_path = "frames/frame_0.jpg"
+image_path = "frames/frame_86.jpg"
 image = cv2.imread(image_path)
 
 # Preprocess Image
